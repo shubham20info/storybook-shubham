@@ -1,7 +1,6 @@
 {
   "name": "storybook-shubham",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
@@ -19,6 +18,10 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "eslintConfig": {
     "extends": [
       "react-app",
